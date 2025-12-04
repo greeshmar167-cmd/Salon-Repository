@@ -8,6 +8,8 @@ namespace SalonBooking.Api.Controllers
     [ApiController]
     [Route("api/[controller]")]
     public class ServicesController : ControllerBase
+
+
     {
         private readonly SalonDbContext _context;
 
