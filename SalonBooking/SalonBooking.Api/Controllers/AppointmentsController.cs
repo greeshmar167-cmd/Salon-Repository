@@ -17,6 +17,8 @@ namespace SalonBooking.Api.Controllers
         }
 
         // POST api/appointments/book
+
+
         [HttpPost("book")]
         public async Task<IActionResult> Book(Appointment model)
         {
