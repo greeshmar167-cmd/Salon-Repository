@@ -1,12 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "z9E1tcnsR9IWhO5+8OTEIvxd3gKjW3FAjfgl81iqFPg=",
-  "Source": "SalonBooking.Api",
-  "BasePath": "_content/SalonBooking.Api",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
-}
+{"Version":1,"Hash":"vWw7GAfqta0uNWIidoUqIfof3BLGHZqGR95Dlvr5f/E=","Source":"SalonBooking.Api","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

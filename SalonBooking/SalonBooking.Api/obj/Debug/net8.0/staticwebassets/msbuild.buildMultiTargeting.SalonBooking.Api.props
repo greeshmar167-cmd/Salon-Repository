@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\SalonBooking.Api.props" />
-</Project>
