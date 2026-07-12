@@ -6,6 +6,8 @@ namespace SalonBooking.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+
+    // This controller handles service retrieval - it allows clients to view all available services.
     public class ServicesController : ControllerBase
     {
         private readonly SalonDbContext _context;
