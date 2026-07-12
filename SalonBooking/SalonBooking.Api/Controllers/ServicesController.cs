@@ -1,15 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SalonBooking.Api.Data;
-using SalonBooking.Api.Models;
 
 namespace SalonBooking.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
     public class ServicesController : ControllerBase
-
-
     {
         private readonly SalonDbContext _context;
 
