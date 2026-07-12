@@ -22,6 +22,7 @@ namespace SalonBooking.Api.Controllers
         public async Task<IActionResult> Book(Appointment model)
         {
             // Don’t allow double booking same service same time
+            // Check if the appointment already exists for the same service, date, and time slot
             bool exists = await _context.Appointments.AnyAsync(a =>
                 a.ServiceId == model.ServiceId &&
                 a.Date.Date == model.Date.Date &&
