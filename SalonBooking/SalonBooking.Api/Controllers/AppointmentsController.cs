@@ -7,7 +7,7 @@ namespace SalonBooking.Api.Controllers
 {
     [ApiController] 
     [Route("api/[controller]")]
-    // This controller handles appointment booking and retrieval
+    // This controller handles appointment booking and retrieval -test
     public class AppointmentsController : ControllerBase
     {
         private readonly SalonDbContext _context;
