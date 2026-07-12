@@ -6,6 +6,7 @@ namespace SalonBooking.Api.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+        // This is a sample WeatherForecastController that is included in the default ASP.NET Core Web API template. It can be removed if not needed.
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
