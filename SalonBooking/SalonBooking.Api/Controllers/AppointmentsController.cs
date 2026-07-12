@@ -5,8 +5,9 @@ using SalonBooking.Api.Models;
 
 namespace SalonBooking.Api.Controllers
 {
-    [ApiController]
+    [ApiController] 
     [Route("api/[controller]")]
+    // This controller handles appointment booking and retrieval - it allows clients to book appointments and view all existing appointments.
     public class AppointmentsController : ControllerBase
     {
         private readonly SalonDbContext _context;
